@@ -16,6 +16,7 @@
     {%- include header.html %}
 
     <!-- Content -->
+    <div id="particles-js"></div>
     <div class="container mt-5">
       {{ content }}
     </div>
@@ -24,6 +25,7 @@
     {%- include footer.html %}
 
     <!-- JavaScripts -->
+    {% include scripts/particles.html %}
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
     {% include scripts/masonry.html %}
