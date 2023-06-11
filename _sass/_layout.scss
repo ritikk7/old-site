@@ -22,15 +22,30 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
-#particles-js {
-  margin: 0; 
-  padding: 0; 
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background:  #fdfdfd;
-  display: flex;
-  z-index: -100;
+html[data-theme='light'] {
+  #particles-js {
+    margin: 0; 
+    padding: 0; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:  #fdfdfd;
+    display: flex;
+    z-index: -100;
+  }
+}
+
+html[data-theme='dark'] {
+  #particles-js {
+    margin: 0; 
+    padding: 0; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:  #{$grey-color-dark};
+    display: flex;
+    z-index: -100;
+  }
 }
 
 .container {

@@ -24,7 +24,7 @@ particlesJS(
         }
       },
       "color": {
-        "value": "#064984"
+        "value": (document.querySelector('html').getAttribute('data-theme') === 'light') ? "#064984" : "#66050a"
       },
       "shape": {
         "type": "circle",
