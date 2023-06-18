@@ -1,5 +1,6 @@
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
+{% if project.display == true -%}
 <div class="grid-item">
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
@@ -34,3 +35,4 @@
       </div>
     </a>
 </div>
+{%- endif %}
