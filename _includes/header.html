@@ -34,8 +34,8 @@
             <span class="icon-bar bottom-bar"></span>
           </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+          <div class="collapse navbar-collapse {% if page.title == 'about' %} d-flex justify-content-center {%- else %} text-right {% endif %}" id="navbarNav">
+            <ul class="navbar-nav {% if page.title != 'about' %} ml-auto flex-nowrap {% endif %}">
 
               {%- for page in site.pages -%}
                 {% if page.permalink == '/' %}
