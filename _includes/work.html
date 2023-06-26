@@ -1,0 +1,19 @@
+<!-- _includes/work.html -->
+{% if work.display == true -%}
+<div class="grid-sizer"></div>
+<div class="grid-item">
+    <a href="{{ work.redirect }}">
+      <div class="card hoverable">
+        {%- if work.img %}
+        {%- include figure.html
+          path=work.img
+          alt="work thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <!-- <h2 class="card-title">{{ work.title }}</h2> -->
+          <p class="card-text">{{ work.description }}</p>
+        </div>
+      </div>
+    </a>
+</div>
+{%- endif %}

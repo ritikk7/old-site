@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 103
-category: fun
+title: Chess
+description: The Classic Game of Chess
+img: assets/img/12.jpg
+importance: 1
+category: work
 display: false
 ---
 

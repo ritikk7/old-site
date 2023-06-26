@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: about-content
 title: About
 permalink: /
 subtitle: <span id="ityped"></span>

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 103
-category: fun
+title: project 1
+description: a project with a background image
+img: assets/img/12.jpg
+importance: 100
+category: work
 display: false
 ---
 
