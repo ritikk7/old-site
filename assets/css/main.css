@@ -528,6 +528,42 @@ footer.sticky-bottom {
   text-align: right;
 }
 
+.work {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work a {
+  text-decoration: none;
+}
+.work a:hover .card-title {
+  color: var(--global-theme-color);
+}
+.work .card img {
+  width: 100%;
+}
+.work .card-item {
+  width: auto;
+  margin-bottom: 10px;
+}
+.work .card-item .row {
+  display: flex;
+  align-items: center;
+}
+.work .grid-sizer,
+.work .grid-item {
+  width: 30%;
+  margin: 10px;
+}
+.work h2.work-heading {
+  color: var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 .publications {
   margin-top: 2rem;
 }
