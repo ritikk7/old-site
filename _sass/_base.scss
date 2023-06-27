@@ -160,6 +160,23 @@ blockquote {
   }
 }
 
+.post {
+
+  .post-title {
+    font-size: 50px;
+  }
+
+  .desc {
+    font-size: 20px;
+  }
+  
+  .clearfix {
+    font-size: 20px;
+  }
+
+}
+
+
 
 // Navbar customization
 
@@ -566,6 +583,10 @@ footer.sticky-bottom {
   .grid-item {
     width: 30%;
     margin: 10px;
+  }
+
+  i {
+    color: var(--global-text-color);
   }
 
   h2.work-heading {
